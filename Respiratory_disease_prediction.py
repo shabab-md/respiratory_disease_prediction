@@ -88,15 +88,6 @@ if uploaded_audio_file is not None:
     cen_frames = range(len(spectral_centroids))
     time_frame = librosa.frames_to_time(cen_frames)
     
-    des_4 = 'The Spectral Centroids of the Audio file'
-    st.subheader(des_4, anchor=None)
-    fig4, ax4 = plt.subplots()
-    
-    img = librosa.display.waveshow(signal* 50, sr=sample_rate, alpha=0.4, ax=ax4)
-    ax4.plot(time_frame, min_max_normalize(spectral_centroids), color='r')
-    
-    st.pyplot(fig4)
-    
     
 
 
