@@ -6,5 +6,5 @@ scikit_learn==1.0.1
 librosa
 matplotlib
 seaborn
+libsndfile1
 SoundFile
-libsndfile
