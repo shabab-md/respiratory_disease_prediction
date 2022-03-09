@@ -7,3 +7,4 @@ librosa
 matplotlib
 seaborn
 SoundFile
+libsndfile
