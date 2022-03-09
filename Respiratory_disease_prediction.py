@@ -13,7 +13,6 @@ sns.set(rc={'figure.figsize':(12,7)})
 
 import librosa
 import librosa.display
-import soundfile as sf
 
 import sklearn
 
